@@ -32,6 +32,7 @@ public interface FlagEncoderFactory {
     final String FOOT = "foot";
     final String HIKE = "hike";
     final String MOTORCYCLE = "motorcycle";
+    final String TRACTOR = "tractor";
     final String GENERIC = "generic";
     final FlagEncoderFactory DEFAULT = new DefaultFlagEncoderFactory();
 

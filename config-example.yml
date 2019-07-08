@@ -8,7 +8,7 @@ graphhopper:
 
   # Possible options: car,foot,bike,bike2,mtb,racingbike,motorcycle (comma separated)
   # bike2 takes elevation data into account (like up-hill is slower than down-hill) and requires enabling graph.elevation.provider below
-  graph.flag_encoders: car
+  graph.flag_encoders: car,tractor
 
 
   # Enable turn restrictions for car or motorcycle.
